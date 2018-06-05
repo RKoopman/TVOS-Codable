@@ -74,8 +74,8 @@ public class LastWatched: NSObject, Codable {
         sourceType = try values.decodeIfPresent(SourceType.self, forKey: .sourceType) ?? .unknown
         startDateTime = try values.decodeIfPresent(String.self, forKey: .startDateTime)
         match = try values.decodeIfPresent(Match.self, forKey: .match)
-        startDate = FuboDateStyler.getDate(forString: startDateTime)
-        endDate = FuboDateStyler.getDate(forString: endDateTime)
+//        startDate = FuboDateStyler.getDate(forString: startDateTime)
+//        endDate = FuboDateStyler.getDate(forString: endDateTime)
         playbackType = try values.decodeIfPresent(CWPlaybackType.self, forKey: .playbackType)
     }
     

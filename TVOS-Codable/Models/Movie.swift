@@ -124,13 +124,13 @@ open class Movie: Codable {
     }
 }
 
-extension Movie:FTRecordable {
+extension Movie:Recordable {
     public var airingId: String? {
         return airings?.first?.airingId
     }
 }
 
-extension Movie:FTStationPlayable {
+extension Movie:StationPlayable {
     public var stationId:String? {
         guard let networkId = airings?.first?.networkID else {
             return nil

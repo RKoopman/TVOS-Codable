@@ -146,13 +146,13 @@ open class Episode: Codable {
     
 }
 
-extension Episode:FTRecordable {
+extension Episode:Recordable {
     public var airingId: String? {
         return airings?.first?.airingId
     }
 }
 
-extension Episode:FTStationPlayable {
+extension Episode:StationPlayable {
     public var stationId:String? {
         guard let networkId = airings?.first?.networkID else {
             return nil

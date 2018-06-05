@@ -66,7 +66,7 @@ public enum ContentType: String, Codable {
     case series_episode = "series_episode"
 }
 
-public class Airing: NSObject, Codable, FTRecordable {
+public class Airing: NSObject, Codable, Recordable {
     public var tmsId: String?
     public var airingId: String?
     public var sourceType: SourceType = .unknown
@@ -406,8 +406,8 @@ public class Airing: NSObject, Codable, FTRecordable {
         letterImageUrl = try values.decodeIfPresent(String.self, forKey: .letterImageUrl)
         startDateTime = try values.decodeIfPresent(String.self, forKey: .startDateTime)
         endDateTime = try values.decodeIfPresent(String.self, forKey: .endDateTime)
-        startDate = FuboDateStyler.getDate(forString: startDateTime)
-        endDate = FuboDateStyler.getDate(forString: endDateTime)
+//        startDate = FuboDateStyler.getDate(forString: startDateTime)
+//        endDate = FuboDateStyler.getDate(forString: endDateTime)
         lookbackStartDateTime = try values.decodeIfPresent(String.self, forKey: .lookbackStartDateTime)
         lookbackEndDateTime = try values.decodeIfPresent(String.self, forKey: .lookbackEndDateTime)
         networkID = try values.decodeIfPresent(Int.self, forKey: .networkID)

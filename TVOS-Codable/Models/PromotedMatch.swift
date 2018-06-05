@@ -7,9 +7,8 @@
 //
 
 import Foundation
-import Alamofire
 
-open class PromotedMatch: Codable, FTRecordable {
+open class PromotedMatch: Codable, Recordable {
     public let tmsid, title, customLinkURL, contentType: String?
     public let sportType, thumbnailURL: String?
     public let letterImageURL, carouselImageURL: String?
@@ -76,7 +75,7 @@ open class PromotedMatch: Codable, FTRecordable {
     }
 }
 
-extension PromotedMatch:FTStationPlayable {
+extension PromotedMatch:StationPlayable {
     public var stationId:String? {
         guard let networkId = airings?.first?.networkID else {
             return nil

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CC5337620C706E1002545CD /* Recordable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC5337520C706E1002545CD /* Recordable.swift */; };
+		7CC5337820C70792002545CD /* StationPlayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC5337720C70792002545CD /* StationPlayable.swift */; };
+		7CC5337C20C70842002545CD /* FuboDateStyler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC5337B20C70842002545CD /* FuboDateStyler.swift */; };
+		7CC5337E20C70A97002545CD /* ContentSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC5337D20C70A97002545CD /* ContentSearchResult.swift */; };
+		7CC5338120C70B1B002545CD /* CellInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC5338020C70B1B002545CD /* CellInfoModel.swift */; };
+		7CC5338520C70D35002545CD /* PromotedAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC5338420C70D35002545CD /* PromotedAction.swift */; };
 		7CF09D0E20C6D8F000EEF238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D0D20C6D8F000EEF238 /* AppDelegate.swift */; };
 		7CF09D1020C6D8F000EEF238 /* MoviesHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D0F20C6D8F000EEF238 /* MoviesHomeViewController.swift */; };
 		7CF09D1520C6D8F200EEF238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF09D1420C6D8F200EEF238 /* Assets.xcassets */; };
@@ -30,13 +36,19 @@
 		7CF09D4120C6E3B500EEF238 /* DisplayNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D4020C6E3B500EEF238 /* DisplayNetwork.swift */; };
 		7CF09D4320C6E3DA00EEF238 /* DisplayNetworkSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D4220C6E3DA00EEF238 /* DisplayNetworkSeries.swift */; };
 		7CF09D4520C6F76300EEF238 /* DisplayNetworkMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D4420C6F76300EEF238 /* DisplayNetworkMovies.swift */; };
-		7CF09D4720C6F77C00EEF238 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D4620C6F77C00EEF238 /* Location.swift */; };
 		7CF09D4920C6F7A200EEF238 /* Any.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D4820C6F7A200EEF238 /* Any.swift */; };
-		7CF09D4B20C6F7D800EEF238 /* FuboUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D4A20C6F7D800EEF238 /* FuboUser.swift */; };
-		7CF09D4D20C6F7FE00EEF238 /* ContentSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D4C20C6F7FE00EEF238 /* ContentSearchResult.swift */; };
+		FEE8A18EE72EE0B70E47F7D5 /* Pods_TVOS_Codable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE02B4C21F3B944D2BCA906E /* Pods_TVOS_Codable.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3838FBF8D5AC5B296E634633 /* Pods-TVOS-Codable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVOS-Codable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TVOS-Codable/Pods-TVOS-Codable.debug.xcconfig"; sourceTree = "<group>"; };
+		4E576DC62C422851D2E6B150 /* Pods-TVOS-Codable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVOS-Codable.release.xcconfig"; path = "Pods/Target Support Files/Pods-TVOS-Codable/Pods-TVOS-Codable.release.xcconfig"; sourceTree = "<group>"; };
+		7CC5337520C706E1002545CD /* Recordable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recordable.swift; sourceTree = "<group>"; };
+		7CC5337720C70792002545CD /* StationPlayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationPlayable.swift; sourceTree = "<group>"; };
+		7CC5337B20C70842002545CD /* FuboDateStyler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuboDateStyler.swift; sourceTree = "<group>"; };
+		7CC5337D20C70A97002545CD /* ContentSearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentSearchResult.swift; sourceTree = "<group>"; };
+		7CC5338020C70B1B002545CD /* CellInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellInfoModel.swift; sourceTree = "<group>"; };
+		7CC5338420C70D35002545CD /* PromotedAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotedAction.swift; sourceTree = "<group>"; };
 		7CF09D0A20C6D8F000EEF238 /* TVOS-Codable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TVOS-Codable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF09D0D20C6D8F000EEF238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CF09D0F20C6D8F000EEF238 /* MoviesHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesHomeViewController.swift; sourceTree = "<group>"; };
@@ -62,10 +74,8 @@
 		7CF09D4020C6E3B500EEF238 /* DisplayNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayNetwork.swift; sourceTree = "<group>"; };
 		7CF09D4220C6E3DA00EEF238 /* DisplayNetworkSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayNetworkSeries.swift; sourceTree = "<group>"; };
 		7CF09D4420C6F76300EEF238 /* DisplayNetworkMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayNetworkMovies.swift; sourceTree = "<group>"; };
-		7CF09D4620C6F77C00EEF238 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		7CF09D4820C6F7A200EEF238 /* Any.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Any.swift; sourceTree = "<group>"; };
-		7CF09D4A20C6F7D800EEF238 /* FuboUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuboUser.swift; sourceTree = "<group>"; };
-		7CF09D4C20C6F7FE00EEF238 /* ContentSearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentSearchResult.swift; sourceTree = "<group>"; };
+		DE02B4C21F3B944D2BCA906E /* Pods_TVOS_Codable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVOS_Codable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,17 +83,87 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEE8A18EE72EE0B70E47F7D5 /* Pods_TVOS_Codable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A26C189F935A80901AC03DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3838FBF8D5AC5B296E634633 /* Pods-TVOS-Codable.debug.xcconfig */,
+				4E576DC62C422851D2E6B150 /* Pods-TVOS-Codable.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		73A675AFF81EAF23FE28D872 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE02B4C21F3B944D2BCA906E /* Pods_TVOS_Codable.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CC5337420C706B1002545CD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7CC5337F20C70AFD002545CD /* Cells */,
+				7CC5337520C706E1002545CD /* Recordable.swift */,
+				7CC5337720C70792002545CD /* StationPlayable.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7CC5337920C70821002545CD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7CC5337A20C7082A002545CD /* Styles */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7CC5337A20C7082A002545CD /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				7CC5337B20C70842002545CD /* FuboDateStyler.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		7CC5337F20C70AFD002545CD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7CC5338020C70B1B002545CD /* CellInfoModel.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		7CC5338220C70D11002545CD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7CC5338320C70D1D002545CD /* PromotedActions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7CC5338320C70D1D002545CD /* PromotedActions */ = {
+			isa = PBXGroup;
+			children = (
+				7CC5338420C70D35002545CD /* PromotedAction.swift */,
+			);
+			path = PromotedActions;
+			sourceTree = "<group>";
+		};
 		7CF09D0120C6D8F000EEF238 = {
 			isa = PBXGroup;
 			children = (
 				7CF09D0C20C6D8F000EEF238 /* TVOS-Codable */,
 				7CF09D0B20C6D8F000EEF238 /* Products */,
+				73A675AFF81EAF23FE28D872 /* Frameworks */,
+				6A26C189F935A80901AC03DD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +178,9 @@
 		7CF09D0C20C6D8F000EEF238 /* TVOS-Codable */ = {
 			isa = PBXGroup;
 			children = (
+				7CC5338220C70D11002545CD /* Common */,
+				7CC5337920C70821002545CD /* Utils */,
+				7CC5337420C706B1002545CD /* Controllers */,
 				7CF09D1D20C6E08300EEF238 /* ViewControllers */,
 				7CF09D1C20C6DFE500EEF238 /* Models */,
 				7CF09D0D20C6D8F000EEF238 /* AppDelegate.swift */,
@@ -128,10 +211,8 @@
 				7CF09D4020C6E3B500EEF238 /* DisplayNetwork.swift */,
 				7CF09D4220C6E3DA00EEF238 /* DisplayNetworkSeries.swift */,
 				7CF09D4420C6F76300EEF238 /* DisplayNetworkMovies.swift */,
-				7CF09D4620C6F77C00EEF238 /* Location.swift */,
 				7CF09D4820C6F7A200EEF238 /* Any.swift */,
-				7CF09D4A20C6F7D800EEF238 /* FuboUser.swift */,
-				7CF09D4C20C6F7FE00EEF238 /* ContentSearchResult.swift */,
+				7CC5337D20C70A97002545CD /* ContentSearchResult.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -153,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CF09D1920C6D8F200EEF238 /* Build configuration list for PBXNativeTarget "TVOS-Codable" */;
 			buildPhases = (
+				8322894CC7D26EEBEC0810F3 /* [CP] Check Pods Manifest.lock */,
 				7CF09D0620C6D8F000EEF238 /* Sources */,
 				7CF09D0720C6D8F000EEF238 /* Frameworks */,
 				7CF09D0820C6D8F000EEF238 /* Resources */,
+				E516420215C2E30443C8B17F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -210,6 +293,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8322894CC7D26EEBEC0810F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TVOS-Codable-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E516420215C2E30443C8B17F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TVOS-Codable/Pods-TVOS-Codable-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TVOS-Codable/Pods-TVOS-Codable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7CF09D0620C6D8F000EEF238 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -219,27 +341,30 @@
 				7CF09D2F20C6E25E00EEF238 /* Sport.swift in Sources */,
 				7CF09D3720C6E2FF00EEF238 /* LastWatched.swift in Sources */,
 				7CF09D4120C6E3B500EEF238 /* DisplayNetwork.swift in Sources */,
+				7CC5337C20C70842002545CD /* FuboDateStyler.swift in Sources */,
 				7CF09D4320C6E3DA00EEF238 /* DisplayNetworkSeries.swift in Sources */,
+				7CC5338520C70D35002545CD /* PromotedAction.swift in Sources */,
 				7CF09D2120C6E0E300EEF238 /* SportsHomeViewController.swift in Sources */,
+				7CC5337820C70792002545CD /* StationPlayable.swift in Sources */,
 				7CF09D1F20C6E0C500EEF238 /* SeriesHomeViewController.swift in Sources */,
 				7CF09D2320C6E16400EEF238 /* Airing.swift in Sources */,
 				7CF09D1020C6D8F000EEF238 /* MoviesHomeViewController.swift in Sources */,
-				7CF09D4B20C6F7D800EEF238 /* FuboUser.swift in Sources */,
 				7CF09D3920C6E31800EEF238 /* Genre.swift in Sources */,
 				7CF09D3520C6E2D000EEF238 /* Series.swift in Sources */,
 				7CF09D0E20C6D8F000EEF238 /* AppDelegate.swift in Sources */,
 				7CF09D4920C6F7A200EEF238 /* Any.swift in Sources */,
 				7CF09D3B20C6E33A00EEF238 /* Network.swift in Sources */,
 				7CF09D2520C6E18F00EEF238 /* Match.swift in Sources */,
-				7CF09D4D20C6F7FE00EEF238 /* ContentSearchResult.swift in Sources */,
-				7CF09D4720C6F77C00EEF238 /* Location.swift in Sources */,
+				7CC5337E20C70A97002545CD /* ContentSearchResult.swift in Sources */,
 				7CF09D3320C6E2B100EEF238 /* Movie.swift in Sources */,
 				7CF09D2720C6E1B900EEF238 /* PromotedMatch.swift in Sources */,
 				7CF09D3D20C6E36300EEF238 /* Program.swift in Sources */,
 				7CF09D2D20C6E22A00EEF238 /* League.swift in Sources */,
 				7CF09D4520C6F76300EEF238 /* DisplayNetworkMovies.swift in Sources */,
+				7CC5338120C70B1B002545CD /* CellInfoModel.swift in Sources */,
 				7CF09D3120C6E28A00EEF238 /* Station.swift in Sources */,
 				7CF09D3F20C6E37800EEF238 /* SourceType.swift in Sources */,
+				7CC5337620C706E1002545CD /* Recordable.swift in Sources */,
 				7CF09D2920C6E1E900EEF238 /* PromotedTv.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +486,7 @@
 		};
 		7CF09D1A20C6D8F200EEF238 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3838FBF8D5AC5B296E634633 /* Pods-TVOS-Codable.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -380,6 +506,7 @@
 		};
 		7CF09D1B20C6D8F200EEF238 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E576DC62C422851D2E6B150 /* Pods-TVOS-Codable.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

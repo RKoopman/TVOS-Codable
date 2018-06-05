@@ -94,7 +94,7 @@ open class PromotedTv: Codable {
     }
 }
 
-extension PromotedTv:FTRecordable {
+extension PromotedTv:Recordable {
     public var isLive: Bool {
         return self.airings?.first?.isLive ?? false
     }
@@ -108,7 +108,7 @@ extension PromotedTv:FTRecordable {
     }
 }
 
-extension PromotedTv:FTStationPlayable {
+extension PromotedTv:StationPlayable {
     public var stationId:String? {
         guard let networkId = airings?.first?.networkID else {
             return nil

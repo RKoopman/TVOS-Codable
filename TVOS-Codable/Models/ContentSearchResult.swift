@@ -208,12 +208,12 @@ enum SearchResult: Codable {
         }
     }
     
-    var cellModel: FTCellInfoModel {
+    var cellModel: CellInfoModel {
         switch self {
         case .series(let series):
-            return FTCellInfoModel(with: series)
+            return CellInfoModel(with: series)
         case .airing(let airing):
-            return FTCellInfoModel(with: airing)
+            return CellInfoModel(with: airing)
         }
     }
     
