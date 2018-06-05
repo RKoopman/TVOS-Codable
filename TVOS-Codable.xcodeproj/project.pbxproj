@@ -8,16 +8,64 @@
 
 /* Begin PBXBuildFile section */
 		7CF09D0E20C6D8F000EEF238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D0D20C6D8F000EEF238 /* AppDelegate.swift */; };
-		7CF09D1020C6D8F000EEF238 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D0F20C6D8F000EEF238 /* ViewController.swift */; };
+		7CF09D1020C6D8F000EEF238 /* MoviesHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D0F20C6D8F000EEF238 /* MoviesHomeViewController.swift */; };
 		7CF09D1520C6D8F200EEF238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF09D1420C6D8F200EEF238 /* Assets.xcassets */; };
+		7CF09D1F20C6E0C500EEF238 /* SeriesHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D1E20C6E0C500EEF238 /* SeriesHomeViewController.swift */; };
+		7CF09D2120C6E0E300EEF238 /* SportsHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D2020C6E0E300EEF238 /* SportsHomeViewController.swift */; };
+		7CF09D2320C6E16400EEF238 /* Airing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D2220C6E16400EEF238 /* Airing.swift */; };
+		7CF09D2520C6E18F00EEF238 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D2420C6E18F00EEF238 /* Match.swift */; };
+		7CF09D2720C6E1B900EEF238 /* PromotedMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D2620C6E1B900EEF238 /* PromotedMatch.swift */; };
+		7CF09D2920C6E1E900EEF238 /* PromotedTv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D2820C6E1E900EEF238 /* PromotedTv.swift */; };
+		7CF09D2B20C6E20600EEF238 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D2A20C6E20600EEF238 /* Team.swift */; };
+		7CF09D2D20C6E22A00EEF238 /* League.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D2C20C6E22A00EEF238 /* League.swift */; };
+		7CF09D2F20C6E25E00EEF238 /* Sport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D2E20C6E25E00EEF238 /* Sport.swift */; };
+		7CF09D3120C6E28A00EEF238 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D3020C6E28A00EEF238 /* Station.swift */; };
+		7CF09D3320C6E2B100EEF238 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D3220C6E2B100EEF238 /* Movie.swift */; };
+		7CF09D3520C6E2D000EEF238 /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D3420C6E2D000EEF238 /* Series.swift */; };
+		7CF09D3720C6E2FF00EEF238 /* LastWatched.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D3620C6E2FF00EEF238 /* LastWatched.swift */; };
+		7CF09D3920C6E31800EEF238 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D3820C6E31800EEF238 /* Genre.swift */; };
+		7CF09D3B20C6E33A00EEF238 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D3A20C6E33A00EEF238 /* Network.swift */; };
+		7CF09D3D20C6E36300EEF238 /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D3C20C6E36300EEF238 /* Program.swift */; };
+		7CF09D3F20C6E37800EEF238 /* SourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D3E20C6E37800EEF238 /* SourceType.swift */; };
+		7CF09D4120C6E3B500EEF238 /* DisplayNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D4020C6E3B500EEF238 /* DisplayNetwork.swift */; };
+		7CF09D4320C6E3DA00EEF238 /* DisplayNetworkSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D4220C6E3DA00EEF238 /* DisplayNetworkSeries.swift */; };
+		7CF09D4520C6F76300EEF238 /* DisplayNetworkMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D4420C6F76300EEF238 /* DisplayNetworkMovies.swift */; };
+		7CF09D4720C6F77C00EEF238 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D4620C6F77C00EEF238 /* Location.swift */; };
+		7CF09D4920C6F7A200EEF238 /* Any.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D4820C6F7A200EEF238 /* Any.swift */; };
+		7CF09D4B20C6F7D800EEF238 /* FuboUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D4A20C6F7D800EEF238 /* FuboUser.swift */; };
+		7CF09D4D20C6F7FE00EEF238 /* ContentSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D4C20C6F7FE00EEF238 /* ContentSearchResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7CF09D0A20C6D8F000EEF238 /* TVOS-Codable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TVOS-Codable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF09D0D20C6D8F000EEF238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7CF09D0F20C6D8F000EEF238 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CF09D0F20C6D8F000EEF238 /* MoviesHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesHomeViewController.swift; sourceTree = "<group>"; };
 		7CF09D1420C6D8F200EEF238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CF09D1620C6D8F200EEF238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CF09D1E20C6E0C500EEF238 /* SeriesHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesHomeViewController.swift; sourceTree = "<group>"; };
+		7CF09D2020C6E0E300EEF238 /* SportsHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsHomeViewController.swift; sourceTree = "<group>"; };
+		7CF09D2220C6E16400EEF238 /* Airing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airing.swift; sourceTree = "<group>"; };
+		7CF09D2420C6E18F00EEF238 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		7CF09D2620C6E1B900EEF238 /* PromotedMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotedMatch.swift; sourceTree = "<group>"; };
+		7CF09D2820C6E1E900EEF238 /* PromotedTv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotedTv.swift; sourceTree = "<group>"; };
+		7CF09D2A20C6E20600EEF238 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		7CF09D2C20C6E22A00EEF238 /* League.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = League.swift; sourceTree = "<group>"; };
+		7CF09D2E20C6E25E00EEF238 /* Sport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sport.swift; sourceTree = "<group>"; };
+		7CF09D3020C6E28A00EEF238 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		7CF09D3220C6E2B100EEF238 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		7CF09D3420C6E2D000EEF238 /* Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Series.swift; sourceTree = "<group>"; };
+		7CF09D3620C6E2FF00EEF238 /* LastWatched.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastWatched.swift; sourceTree = "<group>"; };
+		7CF09D3820C6E31800EEF238 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		7CF09D3A20C6E33A00EEF238 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		7CF09D3C20C6E36300EEF238 /* Program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
+		7CF09D3E20C6E37800EEF238 /* SourceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceType.swift; sourceTree = "<group>"; };
+		7CF09D4020C6E3B500EEF238 /* DisplayNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayNetwork.swift; sourceTree = "<group>"; };
+		7CF09D4220C6E3DA00EEF238 /* DisplayNetworkSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayNetworkSeries.swift; sourceTree = "<group>"; };
+		7CF09D4420C6F76300EEF238 /* DisplayNetworkMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayNetworkMovies.swift; sourceTree = "<group>"; };
+		7CF09D4620C6F77C00EEF238 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		7CF09D4820C6F7A200EEF238 /* Any.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Any.swift; sourceTree = "<group>"; };
+		7CF09D4A20C6F7D800EEF238 /* FuboUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuboUser.swift; sourceTree = "<group>"; };
+		7CF09D4C20C6F7FE00EEF238 /* ContentSearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentSearchResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,12 +98,52 @@
 		7CF09D0C20C6D8F000EEF238 /* TVOS-Codable */ = {
 			isa = PBXGroup;
 			children = (
+				7CF09D1D20C6E08300EEF238 /* ViewControllers */,
+				7CF09D1C20C6DFE500EEF238 /* Models */,
 				7CF09D0D20C6D8F000EEF238 /* AppDelegate.swift */,
-				7CF09D0F20C6D8F000EEF238 /* ViewController.swift */,
 				7CF09D1420C6D8F200EEF238 /* Assets.xcassets */,
 				7CF09D1620C6D8F200EEF238 /* Info.plist */,
 			);
 			path = "TVOS-Codable";
+			sourceTree = "<group>";
+		};
+		7CF09D1C20C6DFE500EEF238 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7CF09D2220C6E16400EEF238 /* Airing.swift */,
+				7CF09D2420C6E18F00EEF238 /* Match.swift */,
+				7CF09D2620C6E1B900EEF238 /* PromotedMatch.swift */,
+				7CF09D2820C6E1E900EEF238 /* PromotedTv.swift */,
+				7CF09D2A20C6E20600EEF238 /* Team.swift */,
+				7CF09D2C20C6E22A00EEF238 /* League.swift */,
+				7CF09D2E20C6E25E00EEF238 /* Sport.swift */,
+				7CF09D3020C6E28A00EEF238 /* Station.swift */,
+				7CF09D3220C6E2B100EEF238 /* Movie.swift */,
+				7CF09D3420C6E2D000EEF238 /* Series.swift */,
+				7CF09D3620C6E2FF00EEF238 /* LastWatched.swift */,
+				7CF09D3820C6E31800EEF238 /* Genre.swift */,
+				7CF09D3A20C6E33A00EEF238 /* Network.swift */,
+				7CF09D3C20C6E36300EEF238 /* Program.swift */,
+				7CF09D3E20C6E37800EEF238 /* SourceType.swift */,
+				7CF09D4020C6E3B500EEF238 /* DisplayNetwork.swift */,
+				7CF09D4220C6E3DA00EEF238 /* DisplayNetworkSeries.swift */,
+				7CF09D4420C6F76300EEF238 /* DisplayNetworkMovies.swift */,
+				7CF09D4620C6F77C00EEF238 /* Location.swift */,
+				7CF09D4820C6F7A200EEF238 /* Any.swift */,
+				7CF09D4A20C6F7D800EEF238 /* FuboUser.swift */,
+				7CF09D4C20C6F7FE00EEF238 /* ContentSearchResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7CF09D1D20C6E08300EEF238 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7CF09D0F20C6D8F000EEF238 /* MoviesHomeViewController.swift */,
+				7CF09D1E20C6E0C500EEF238 /* SeriesHomeViewController.swift */,
+				7CF09D2020C6E0E300EEF238 /* SportsHomeViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,8 +215,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CF09D1020C6D8F000EEF238 /* ViewController.swift in Sources */,
+				7CF09D2B20C6E20600EEF238 /* Team.swift in Sources */,
+				7CF09D2F20C6E25E00EEF238 /* Sport.swift in Sources */,
+				7CF09D3720C6E2FF00EEF238 /* LastWatched.swift in Sources */,
+				7CF09D4120C6E3B500EEF238 /* DisplayNetwork.swift in Sources */,
+				7CF09D4320C6E3DA00EEF238 /* DisplayNetworkSeries.swift in Sources */,
+				7CF09D2120C6E0E300EEF238 /* SportsHomeViewController.swift in Sources */,
+				7CF09D1F20C6E0C500EEF238 /* SeriesHomeViewController.swift in Sources */,
+				7CF09D2320C6E16400EEF238 /* Airing.swift in Sources */,
+				7CF09D1020C6D8F000EEF238 /* MoviesHomeViewController.swift in Sources */,
+				7CF09D4B20C6F7D800EEF238 /* FuboUser.swift in Sources */,
+				7CF09D3920C6E31800EEF238 /* Genre.swift in Sources */,
+				7CF09D3520C6E2D000EEF238 /* Series.swift in Sources */,
 				7CF09D0E20C6D8F000EEF238 /* AppDelegate.swift in Sources */,
+				7CF09D4920C6F7A200EEF238 /* Any.swift in Sources */,
+				7CF09D3B20C6E33A00EEF238 /* Network.swift in Sources */,
+				7CF09D2520C6E18F00EEF238 /* Match.swift in Sources */,
+				7CF09D4D20C6F7FE00EEF238 /* ContentSearchResult.swift in Sources */,
+				7CF09D4720C6F77C00EEF238 /* Location.swift in Sources */,
+				7CF09D3320C6E2B100EEF238 /* Movie.swift in Sources */,
+				7CF09D2720C6E1B900EEF238 /* PromotedMatch.swift in Sources */,
+				7CF09D3D20C6E36300EEF238 /* Program.swift in Sources */,
+				7CF09D2D20C6E22A00EEF238 /* League.swift in Sources */,
+				7CF09D4520C6F76300EEF238 /* DisplayNetworkMovies.swift in Sources */,
+				7CF09D3120C6E28A00EEF238 /* Station.swift in Sources */,
+				7CF09D3F20C6E37800EEF238 /* SourceType.swift in Sources */,
+				7CF09D2920C6E1E900EEF238 /* PromotedTv.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
