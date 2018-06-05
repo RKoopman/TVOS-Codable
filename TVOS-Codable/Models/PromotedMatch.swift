@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Alamofire
 
 open class PromotedMatch: Codable, Recordable {
     public let tmsid, title, customLinkURL, contentType: String?

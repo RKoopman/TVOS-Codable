@@ -151,7 +151,7 @@ public class Airing: NSObject, Codable, Recordable {
     public var startDate: Date? {
         didSet {
             if self.startDateTime == nil {
-                self.startDateTime = startDate?.RFC3339()
+//                self.startDateTime = startDate?.RFC3339()
             }
         }
     }
@@ -159,7 +159,7 @@ public class Airing: NSObject, Codable, Recordable {
     public var endDate: Date? {
         didSet {
             if self.endDateTime == nil {
-                self.endDateTime = endDate?.RFC3339()
+//                self.endDateTime = endDate?.RFC3339()
             }
         }
     }
