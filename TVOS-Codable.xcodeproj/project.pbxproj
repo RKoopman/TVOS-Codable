@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7CF09D0E20C6D8F000EEF238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D0D20C6D8F000EEF238 /* AppDelegate.swift */; };
 		7CF09D1020C6D8F000EEF238 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09D0F20C6D8F000EEF238 /* ViewController.swift */; };
-		7CF09D1320C6D8F000EEF238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF09D1120C6D8F000EEF238 /* Main.storyboard */; };
 		7CF09D1520C6D8F200EEF238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF09D1420C6D8F200EEF238 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -17,7 +16,6 @@
 		7CF09D0A20C6D8F000EEF238 /* TVOS-Codable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TVOS-Codable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF09D0D20C6D8F000EEF238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CF09D0F20C6D8F000EEF238 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7CF09D1220C6D8F000EEF238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7CF09D1420C6D8F200EEF238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CF09D1620C6D8F200EEF238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,7 +52,6 @@
 			children = (
 				7CF09D0D20C6D8F000EEF238 /* AppDelegate.swift */,
 				7CF09D0F20C6D8F000EEF238 /* ViewController.swift */,
-				7CF09D1120C6D8F000EEF238 /* Main.storyboard */,
 				7CF09D1420C6D8F200EEF238 /* Assets.xcassets */,
 				7CF09D1620C6D8F200EEF238 /* Info.plist */,
 			);
@@ -120,7 +117,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CF09D1520C6D8F200EEF238 /* Assets.xcassets in Resources */,
-				7CF09D1320C6D8F000EEF238 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,17 +133,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		7CF09D1120C6D8F000EEF238 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7CF09D1220C6D8F000EEF238 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7CF09D1720C6D8F200EEF238 /* Debug */ = {
