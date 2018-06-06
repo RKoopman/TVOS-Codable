@@ -7,6 +7,7 @@
 //
 
 import Foundation
+typealias Matches = [Match]
 
 public struct Match: Codable {
     let tmsID: String?
@@ -65,5 +66,33 @@ extension Match {
     var json: String? {
         guard let data = self.jsonData else { return nil }
         return String(data: data, encoding: .utf8)
+    }
+}
+
+extension URLSession {
+    fileprivate func codableTask<T: Codable>(with url: URL, completionHandler: @escaping (T?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
+        return self.dataTask(with: url) { data, response, error in
+            guard let data = data, error == nil else {
+                completionHandler(nil, response, error)
+                return
+            }
+            completionHandler(try? JSONDecoder().decode(T.self, from: data), response, nil)
+        }
+    }
+    
+    func promotedMatchesTask(with url: URL, completionHandler: @escaping (Matches?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
+        return self.codableTask(with: url, completionHandler: completionHandler)
+    }
+    
+//    func filteredMatchesTask(with url: URL, completionHandler: @escaping (Matches?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
+//        return self.codableTask(with: url, completionHandler: completionHandler)
+//    }
+    
+    func liveAndUpcommingMatchesTask(with url: URL, completionHandler: @escaping (Matches?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
+        return self.codableTask(with: url, completionHandler: completionHandler)
+    }
+    
+    func recentMatchesTask(with url: URL, completionHandler: @escaping (Matches?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
+        return self.codableTask(with: url, completionHandler: completionHandler)
     }
 }

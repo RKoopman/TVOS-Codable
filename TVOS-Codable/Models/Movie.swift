@@ -175,3 +175,37 @@ public struct Actor: Codable {
 public struct Availability: Codable {
     let startDateTime, endDateTime: String?
 }
+
+extension URLSession {
+    fileprivate func codableTask<T: Codable>(with url: URL, completionHandler: @escaping (T?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
+        return self.dataTask(with: url) { data, response, error in
+            guard let data = data, error == nil else {
+                completionHandler(nil, response, error)
+                return
+            }
+            completionHandler(try? JSONDecoder().decode(T.self, from: data), response, nil)
+        }
+    }
+    
+    // Tasks:
+    func promotedMoviesTask(with url: URL, completionHandler: @escaping (Movies?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
+        return self.codableTask(with: url, completionHandler: completionHandler)
+    }
+    
+    func genreMoviesTask(with url: URL, completionHandler: @escaping (Movies?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
+        return self.codableTask(with: url, completionHandler: completionHandler)
+    }
+
+    func liveAndUpcomingMoviesTask(with url: URL, completionHandler: @escaping (Movies?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
+        return self.codableTask(with: url, completionHandler: completionHandler)
+    }
+    
+    func popularMoviesTask(with url: URL, completionHandler: @escaping (Movies?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
+        return self.codableTask(with: url, completionHandler: completionHandler)
+    }
+
+    func recentMoviesTask(with url: URL, completionHandler: @escaping (Movies?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
+        return self.codableTask(with: url, completionHandler: completionHandler)
+    }
+
+}

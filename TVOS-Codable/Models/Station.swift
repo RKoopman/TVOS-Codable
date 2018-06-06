@@ -40,3 +40,36 @@ public class Station: NSObject, Codable {
     }
 }
 
+extension URLSession {
+    fileprivate func codableTask<T: Codable>(with url: URL, completionHandler: @escaping (T?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
+        return self.dataTask(with: url) { data, response, error in
+            guard let data = data, error == nil else {
+                completionHandler(nil, response, error)
+                return
+            }
+            completionHandler(try? JSONDecoder().decode(T.self, from: data), response, nil)
+        }
+    }
+    
+    // Tasks:
+    func promotedSeriesTask(with url: URL, completionHandler: @escaping (Series?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
+        return self.codableTask(with: url, completionHandler: completionHandler)
+    }
+    
+    func genreSeriesTask(with url: URL, completionHandler: @escaping (Series?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
+        return self.codableTask(with: url, completionHandler: completionHandler)
+    }
+    
+    func liveAndUpcomingSeriesTask(with url: URL, completionHandler: @escaping (Series?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
+        return self.codableTask(with: url, completionHandler: completionHandler)
+    }
+    
+    func popularSeriesTask(with url: URL, completionHandler: @escaping (Series?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
+        return self.codableTask(with: url, completionHandler: completionHandler)
+    }
+    
+    func recentSeriesTask(with url: URL, completionHandler: @escaping (Series?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
+        return self.codableTask(with: url, completionHandler: completionHandler)
+    }
+    
+}
